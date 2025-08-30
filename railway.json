@@ -1,0 +1,11 @@
+{
+  "build": {
+    "docker": true
+  },
+  "env": {
+    "N8N_HOST": "${RAILWAY_STATIC_URL}",
+    "N8N_PORT": "5678",
+    "N8N_PROTOCOL": "https",
+    "WEBHOOK_URL": "https://${RAILWAY_STATIC_URL}/"
+  }
+}
